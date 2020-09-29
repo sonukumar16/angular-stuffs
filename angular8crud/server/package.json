@@ -1,0 +1,21 @@
+{
+  "name": "server-for-angular8crud",
+  "version": "1.0.0",
+  "description": "This node server for angular 8 app.",
+  "main": "server.js",
+  "author": "Sonu Kumar",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "morgan-body": "^2.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

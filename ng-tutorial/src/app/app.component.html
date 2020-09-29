@@ -1,0 +1,21 @@
+<!-- <app-class-binding></app-class-binding> -->
+<!-- <app-style-binding></app-style-binding> -->
+<!-- <app-event-binding></app-event-binding> -->
+<!-- <app-template-reference-variables></app-template-reference-variables> -->
+<!-- <app-ng-if-directive></app-ng-if-directive> -->
+<!-- <app-ng-switch-directive></app-ng-switch-directive> -->
+<!-- <app-ng-for-directive></app-ng-for-directive> -->
+<!-- <app-parent></app-parent> -->
+<!-- <app-pipes></app-pipes> -->
+
+<!-- <app-employee-list></app-employee-list>
+<app-employee-detail></app-employee-detail> -->
+<div style="text-align: center;">
+    <h1>Routing and Navigation</h1>
+
+</div>
+<nav>
+    <a [routerLink]="['/departments']" routerLinkActive="active">Departments</a>
+    <a routerLink="/employees" routerLinkActive="active">Employees</a>
+</nav>
+<router-outlet></router-outlet>
